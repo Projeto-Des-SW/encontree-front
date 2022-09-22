@@ -12,6 +12,7 @@ function PerfilUsuario() {
 
     return (
     <>
+
         <div className='container blue col-lg-6 col-sm-12'>
             <div>
                 <button type="submit" className="botao_voltar">Voltar</button>
