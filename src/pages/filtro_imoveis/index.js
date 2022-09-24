@@ -31,21 +31,21 @@ function FiltroImoveis() {
 
                     <div className='mb-3'>
                         <label htmlFor="labelTipoMoradia" className="form-label text">Tipo de Moradia:</label>
-                        <div class="form-check">
-                            <input class="form-check-input" type="radio" name="inputRadio" id="inputRadioCasa" value="casa" checked />
-                            <label class="form-check-label" htmlFor="labelTipoMoradiaCasa">
+                        <div className="form-check">
+                            <input className="form-check-input" type="radio" name="inputRadio" id="inputRadioCasa" value="casa" checked />
+                            <label className="form-check-label" htmlFor="labelTipoMoradiaCasa">
                                 Casa
                             </label>
                         </div>
-                        <div class="form-check">
-                            <input class="form-check-input" type="radio" name="inputRadio" id="inputRadioApto" value="apartamento"/>
-                            <label class="form-check-label" htmlFor="labelTipoMoradiaApto">
+                        <div className="form-check">
+                            <input className="form-check-input" type="radio" name="inputRadio" id="inputRadioApto" value="apartamento"/>
+                            <label className="form-check-label" htmlFor="labelTipoMoradiaApto">
                                 Apartamento
                             </label>
                         </div>
-                        <div class="form-check">
-                            <input class="form-check-input" type="radio" name="inputRadio" id="inputRadioCasaEApto" value="casaEapto" />
-                            <label class="form-check-label" htmlFor="labelTipoMoradiaAmbos">
+                        <div className="form-check">
+                            <input className="form-check-input" type="radio" name="inputRadio" id="inputRadioCasaEApto" value="casaEapto" />
+                            <label className="form-check-label" htmlFor="labelTipoMoradiaAmbos">
                                 Ambos
                             </label>
                         </div>
@@ -54,21 +54,21 @@ function FiltroImoveis() {
 
                     <div className='mb-3'>
                         <label htmlFor="labelAceitaMorarSexos" className="form-label text">Aceita morar com:</label>
-                        <div class="form-check">
-                            <input class="form-check-input" type="radio" name="inputRadio2" id="inputRadioHomensEMulheres" value="homensemulheres" checked />
-                            <label class="form-check-label" htmlFor="labelAceitaMorarAmbos">
+                        <div className="form-check">
+                            <input className="form-check-input" type="radio" name="inputRadio2" id="inputRadioHomensEMulheres" value="homensemulheres" checked />
+                            <label className="form-check-label" htmlFor="labelAceitaMorarAmbos">
                                 Ambos os sexos
                             </label>
                         </div>
-                        <div class="form-check">
-                            <input class="form-check-input" type="radio" name="inputRadio2" id="inputRadioHomens" value="homens"/>
-                            <label class="form-check-label" htmlFor="labelAceitaMorarHomens">
+                        <div className="form-check">
+                            <input className="form-check-input" type="radio" name="inputRadio2" id="inputRadioHomens" value="homens"/>
+                            <label className="form-check-label" htmlFor="labelAceitaMorarHomens">
                                 Apenas Homens
                             </label>
                         </div>
-                        <div class="form-check">
-                            <input class="form-check-input" type="radio" name="inputRadio2" id="inputRadioMulheres" value="mulheres" />
-                            <label class="form-check-label" htmlFor="labelAceitaMorarMulheres">
+                        <div className="form-check">
+                            <input className="form-check-input" type="radio" name="inputRadio2" id="inputRadioMulheres" value="mulheres" />
+                            <label className="form-check-label" htmlFor="labelAceitaMorarMulheres">
                             Apenas Mulheres
                             </label>
                         </div>
@@ -79,13 +79,13 @@ function FiltroImoveis() {
                         <div>
                             <label htmlFor="labelAceitaMorarSexos" className="form-label text">Aceita animais?</label>
                         </div>
-                        <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadioAnimaisSim" value="aceitaAnimaisSim" checked/>
-                            <label class="form-check-label" htmlFor="inlineRadioSim">Sim</label>
+                        <div className="form-check form-check-inline">
+                            <input className="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadioAnimaisSim" value="aceitaAnimaisSim" checked/>
+                            <label className="form-check-label" htmlFor="inlineRadioSim">Sim</label>
                         </div>
-                        <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadioAnimaisNao" value="aceitaAnimaisNao"/>
-                            <label class="form-check-label" htmlFor="inlineRadioNao">Não</label>
+                        <div className="form-check form-check-inline">
+                            <input className="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadioAnimaisNao" value="aceitaAnimaisNao"/>
+                            <label className="form-check-label" htmlFor="inlineRadioNao">Não</label>
                         </div>
 
                     </div>
@@ -94,13 +94,13 @@ function FiltroImoveis() {
                         <div>
                             <label htmlFor="labelCaracteristicasQuarto" className="form-label text">Características do Quarto:</label>
                         </div>
-                        <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="inlineRadioQuarto" id="inlineRadioQuartoIndividual" value="quartoIndividual" checked/>
-                            <label class="form-check-label" htmlFor="inlineRadioIndividual">Individual</label>
+                        <div className="form-check form-check-inline">
+                            <input className="form-check-input" type="radio" name="inlineRadioQuarto" id="inlineRadioQuartoIndividual" value="quartoIndividual" checked/>
+                            <label className="form-check-label" htmlFor="inlineRadioIndividual">Individual</label>
                         </div>
-                        <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="inlineRadioQuarto" id="inlineRadioQuartoCompartilhado" value="quartoCompartilhado"/>
-                            <label class="form-check-label" htmlFor="inlineRadioCompartilhado">Compartilhado</label>
+                        <div className="form-check form-check-inline">
+                            <input className="form-check-input" type="radio" name="inlineRadioQuarto" id="inlineRadioQuartoCompartilhado" value="quartoCompartilhado"/>
+                            <label className="form-check-label" htmlFor="inlineRadioCompartilhado">Compartilhado</label>
                         </div>
 
                     </div>
