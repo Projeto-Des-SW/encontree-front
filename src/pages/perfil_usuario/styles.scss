@@ -4,7 +4,7 @@
     background-color: $color-azul-nav;
     border-radius: 5px;
     padding: 10px;
-    h2, .text {
+    h2, h3, h6, p, .text {
         color: $color-branco;
     }
     .icon {
@@ -19,24 +19,14 @@
     border: none;
     border-radius: 10px;
     padding: 6px;
-    width: 30%;
+    width: auto;
+    background-color: #ffffff;
+    color: #000000;
 }
 
-.perfil{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 1em;
-    color: #ffffff;
-}
-
-.perfil svg{
-    margin: .3em;
-}
-
-.perfil h6{
-    padding-top: 2em;
+.espaco_svg{
+    margin: .2em;
+    margin-bottom: 1em;
 }
 
 
@@ -68,7 +58,6 @@
 
 .img_circle{
     display: inline-block;
-    border-radius: 50%;
 }
 
 .img_circle img{
